@@ -1,0 +1,517 @@
+1522871730231	geckodriver	INFO	geckodriver 0.20.0
+1522871730239	geckodriver	INFO	Listening on 127.0.0.1:59361
+1523368411112	geckodriver	INFO	geckodriver 0.20.0
+1523368411125	geckodriver	INFO	Listening on 127.0.0.1:49393
+1523368415000	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.7w3omkTwO7SM"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15584, ChromUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523368467640	Marionette	INFO	Listening on port 49406
+1523368467765	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ng on 127.0.0.1:49598
+1523368562934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.K6zz7OLYoK9s"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12216, ChroUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523368575717	Marionette	INFO	Listening on port 49607
+1523368576599	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523368655548	addons.xpi	WARN	Please specify whether you want browser_style or not in your options_ui options.
+1523368658293	addons.xpi	WARN	Failed to remove temporary file C:\Users\ENIYAN~1\AppData\Local\Temp\tmp-bsj.xpi for addon https://addons.mozilla.org/firefox/downloads/file/894001/try_xpath-1.3.3-an+fx.xpi?src=search: [Exception... "Component returned failure code: 0x80520015 (NS_ERROR_FILE_ACCESS_DENIED) [nsIFile.remove]"  nsresult: "0x80520015 (NS_ERROR_FILE_ACCESS_DENIED)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: removeTemporaryFile :: line 1476"  data: no] Stack trace: removeTemporaryFile()@resource://gre/modules/addons/XPIInstall.jsm:1476
+startInstall/<()@resource://gre/modules/addons/XPIInstall.jsm:1821
+1523368658343	addons.webextension.{ba6bb880-bcbe-4792-a020-fcfab8d67027}	WARN	Please specify whether you want browser_style or not in your browser_action options.
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/ExtensionPageChild.jsm, line 191: TypeError: this.contentWindow is null
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+[Child 7164, Chrome_ChildThread] WARNING: pipe error: 109: JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 5653: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIFile.directoryEntries]
+[Parent 5064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523371545714	geckodriver	INFO	geckodriver 0.20.0
+1523371545722	geckodriver	INFO	Listening on 127.0.0.1:54346
+1523371548769	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.dyBfx0HzBCQQ"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523371561450	Marionette	INFO	Listening on port 54360
+1523371563084	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.mS95tQFMCQY2"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523371887931	Marionette	INFO	Listening on port 55030
+1523371888145	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16536Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523373167926	Marionette	INFO	Listening on port 57262
+1523373168441	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 2364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10604, Chrome_Chi[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8852, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/i[Parent 2364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15052,[GPU 15672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build[Parent 8020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15456,[Parent 8020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11352, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523383195262	geckodriver	INFO	geckodriver 0.20.0
+1523383195275	geckodriver	INFO	Listening on 127.0.0.1:58711
+1523383198380	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.X9HTOIt04xxH"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523383220253	Marionette	INFO	Listening on port 58725
+1523383220694	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523385250709	geckodriver	INFO	geckodriver 0.20.0
+1523385250718	geckodriver	INFO	Listening on 127.0.0.1:60800
+1523385253893	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.lMEcVm8gBTT5"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14764, Chrome_ChildThread] WARNING: pipe errorUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523385272910	Marionette	INFO	Listening on port 60813
+1523385277551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523385521806	geckodriver	INFO	geckodriver 0.20.0
+1523385521815	geckodriver	INFO	Listening on 127.0.0.1:61385
+1523385524840	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.5ffw90AMMF0z"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523385544297	Marionette	INFO	Listening on port 61397
+1523385546070	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523385738593	geckodriver	INFO	geckodriver 0.20.0
+1523385738602	geckodriver	INFO	Listening on 127.0.0.1:61874
+1523385741705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.8XDhAM1ZoSXx"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523385754313	Marionette	INFO	Listening on port 61887
+1523385756439	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 9900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523386193051	geckodriver	INFO	geckodriver 0.20.0
+1523386193062	geckodriver	INFO	Listening on 127.0.0.1:62749
+1523386196059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.XXZ4VW23UEEy"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18120, ChrUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523386207770	Marionette	INFO	Listening on port 62762
+1523386208228	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7408, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523387702151	geckodriver	INFO	geckodriver 0.20.0
+1523387702160	geckodriver	INFO	Listening on 127.0.0.1:65488
+1523387705292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.wU2RHkwHHafS"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523387722689	Marionette	INFO	Listening on port 65501
+1523387723825	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6928, Chr[Parent 15004, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523387880682	geckodriver	INFO	geckodriver 0.20.0
+1523387880694	geckodriver	INFO	Listening on 127.0.0.1:49533
+1523387883700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.MHJ8yFwkgBuL"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+[Child 18676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18676, Chrome_ChildThread] 1523387918834	Marionette	INFO	Listening on port 49546
+1523387918893	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+[Parent 12096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523388571928	geckodriver	INFO	geckodriver 0.20.0
+1523388571939	geckodriver	INFO	Listening on 127.0.0.1:50965
+1523388574933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.iqUEUeBtBG8x"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14780, ChromeUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523388593212	Marionette	INFO	Listening on port 50978
+1523388593582	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523388743669	geckodriver	INFO	geckodriver 0.20.0
+1523388743682	geckodriver	INFO	Listening on 127.0.0.1:51378
+1523388746683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.4N5tiGzc5vbI"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14004, ChUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 337)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:337:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:330:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:354:11\nasync*write@resource:///modules/sessionstore/SessionFile.jsm:394:19\nwrite@resource:///modules/sessionstore/SessionFile.jsm:66:12\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:357:12\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:295:12\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:341:5\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:192:9\nrequestIdleCallback handler*runDelayed/this._timeoutID<@resource:///modules/sessionstore/SessionSaver.jsm:195:30\nnotify@resource://gre/modules/Timer.jsm:44:7\n"
+1523388761754	Marionette	INFO	Listening on port 51398
+1523388763283	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18088, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523389054805	geckodriver	INFO	geckodriver 0.20.0
+1523389054816	geckodriver	INFO	Listening on 127.0.0.1:52039
+1523389057835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.hm6chBiMvzHK"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523389083402	Marionette	INFO	Listening on port 52052
+1523389086809	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16696, Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523391916422	geckodriver	INFO	geckodriver 0.20.0
+1523391916431	geckodriver	INFO	Listening on 127.0.0.1:57016
+1523391919550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.VbGC6iJZ7FGb"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523391937902	Marionette	INFO	Listening on port 57030
+1523391937919	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523392729101	geckodriver	INFO	geckodriver 0.20.0
+1523392729109	geckodriver	INFO	Listening on 127.0.0.1:58516
+1523392732143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.Nkd3ttrNxyuo"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523392741385	Marionette	INFO	Listening on port 58528
+1523392741798	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523437411163	geckodriver	INFO	geckodriver 0.20.0
+1523437411173	geckodriver	INFO	Listening on 127.0.0.1:64920
+1523437414901	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.07dNPsHnyj78"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523437450486	Marionette	INFO	Listening on port 64936
+1523437450972	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523437695519	geckodriver	INFO	geckodriver 0.20.0
+1523437695527	geckodriver	INFO	Listening on 127.0.0.1:65489
+1523437698621	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.iCgkQSmWOik8"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523437709032	Marionette	INFO	Listening on port 65502
+1523437709075	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 18652, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523438529952	geckodriver	INFO	geckodriver 0.20.0
+1523438529965	geckodriver	INFO	Listening on 127.0.0.1:50685
+1523438533138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.05QyaiW30RIo"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523438546576	Marionette	INFO	Listening on port 50701
+1523438546803	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15448, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 13124, Chrome_ChildThread] WARNING: p
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523438827074	geckodriver	INFO	geckodriver 0.20.0
+1523438827088	geckodriver	INFO	Listening on 127.0.0.1:51331
+1523438830203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.octIcmpV09Jw"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523438840193	Marionette	INFO	Listening on port 51343
+1523438840665	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4612, Chrome_ChildThread] WARNING: pipe err[Parent 11596, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523439473459	geckodriver	INFO	geckodriver 0.20.0
+1523439473471	geckodriver	INFO	Listening on 127.0.0.1:52468
+1523439476465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.pjlyVScTkwBn"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Failed to connect GPU process
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+[GFX1-]: [D3D11] failed to get compositor device.
+[GFX1-]: [D3D11] Failed to init compositor with reason: FEATURE_FAILURE_D3D11_NO_DEVICE
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Compositors might be mixed (1,3)
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[GFX1-]: Could not get a DXGI adapter
+1523439677413	Marionette	INFO	Listening on port 52483
+1523439678145	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2020, Chrome_[Child 16692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16692, [Parent 3172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1523439836404	geckodriver	INFO	geckodriver 0.20.0
+1523439836416	geckodriver	INFO	Listening on 127.0.0.1:53407
+1523439839441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.UTJXjZ2CZkc7"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523439902868	Marionette	INFO	Listening on port 53419
+1523439906113	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/co1523440202679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.vwxX7oK7qawq"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523440215256	Marionette	INFO	Listening on port 54295
+1523440216554	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3444, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523441315736	geckodriver	INFO	geckodriver 0.20.0
+1523441315745	geckodriver	INFO	Listening on 127.0.0.1:56565
+1523441318742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.BEQHYMGVG4kv"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523441327624	Marionette	INFO	Listening on port 56579
+1523441328192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523441433748	geckodriver	INFO	geckodriver 0.20.0
+1523441433763	geckodriver	INFO	Listening on 127.0.0.1:56899
+1523441436770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.GGucE9SB7AyZ"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523441461958	Marionette	INFO	Listening on port 56916
+1523441461963	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 17196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523441530993	geckodriver	INFO	geckodriver 0.20.0
+1523441531002	geckodriver	INFO	Listening on 127.0.0.1:57213
+1523441534017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.v2lg6VvDaRJw"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523441542357	Marionette	INFO	Listening on port 57226
+1523441543766	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 9488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523441669126	geckodriver	INFO	geckodriver 0.20.0
+1523441669139	geckodriver	INFO	Listening on 127.0.0.1:57598
+1523441672278	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.HPx3C4MMqAwr"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523441683779	Marionette	INFO	Listening on port 57612
+1523441684977	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 19240, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1523442649161	geckodriver	INFO	geckodriver 0.20.0
+1523442649184	geckodriver	INFO	Listening on 127.0.0.1:59426
+1523442652992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.6jPlU1Ck7tna"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523442694929	Marionette	INFO	Listening on port 59438
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1523442695600	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 14360, Chrome_CUnable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523443015397	geckodriver	INFO	geckodriver 0.20.0
+1523443015432	geckodriver	INFO	Listening on 127.0.0.1:60235
+1523443018676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ENIYAN~1\\AppData\\Local\\Temp\\rust_mozprofile.lnPm4oRzWoWb"
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Eniyanilavan\AppData\Local\openvr\openvrpaths.vrpath
+1523443057108	Marionette	INFO	Listening on port 60249
+1523443063075	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
