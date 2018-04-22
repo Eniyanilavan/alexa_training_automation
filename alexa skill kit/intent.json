@@ -1,0 +1,152 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "train yourself",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "newskill",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "create skill named {one two three four five | utterance}",
+                        "create new skill named {one two three four five | utterance}",
+                        "add new skill named {one two three four five | utterance}",
+                        "add skill named {one two three four five | utterance}",
+                        "add new skill {one two three four | utterance}",
+                        "add skill {one two three| utterance}",
+                        "create skill {one two | utterance}",
+                        "create new skill {one | utterance}"
+                    ]
+                },
+                {
+                    "name": "editskill",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "open my skill {one two three four five six | utterance}",
+                        "open skill {one two three four five| utterance}",
+                        "open the skill {one two three four | utterance}",
+                        "edit the skill {one two three | utterance}",
+                        "edit my skill {one two | utterance}",
+                        "edit skill {one | utterance}"
+                    ]
+                },
+                {
+                    "name": "newintent",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "create intent named {one | utterance}",
+                        "create new intent named {one | utterance}",
+                        "add intent named {one | utterance}",
+                        "add new intent named {one | utterance}",
+                        "add new intent {one | utterance}",
+                        "create new intent {one | utterance}",
+                        "new intent {one | utterance}",
+                        "create intent {one | utterance}",
+                        "add intent {one | utterance}"
+                    ]
+                },
+                {
+                    "name": "editintent",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "edit the intent {one | utterance}",
+                        "edit intent named {one | utterance}",
+                        "edit intent {one | utterance}"
+                    ]
+                },
+                {
+                    "name": "intentutterance",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone twentytwo | utterance} ",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twentyone | utterance} ",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty | utterance} ",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen | utterance} ",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen | utterance} ",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen | utterance} ",
+                        " add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen| utterance}",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen | utterance}",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen fourteen | utterance}",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve thirteen | utterance}",
+                        "add utterance {one two three four five six seven eight nine ten eleven twelve | utterance}",
+                        "add utterance {one two three four five six seven eight nine ten eleven | utterance}",
+                        "add utterance {one two three four five six seven eight nine ten | utterance}",
+                        "add utterance {one two three four five six seven eight nine | utterance}",
+                        "add utterance {one two three four five six seven eight | utterance}",
+                        "add utterance {one two three four five six seven | utterance}",
+                        "add utterance {one two three four five six | utterance}",
+                        "add utterance {one two three four five | utterance}",
+                        "add utterance {one two three four | utterance}",
+                        "add utterance {about yourself | utterance}",
+                        "add utterance {ask any question| utterance}",
+                        "add utterance {one | utterance}",
+                        "add utterance {say about yourself | utterance}"
+                    ]
+                },
+                {
+                    "name": "invocation",
+                    "slots": [
+                        {
+                            "name": "utterance",
+                            "type": "AMAZON.LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "make {one two three four | utterance} as my invocation word",
+                        "make {open my skill| utterance} as my invocation word",
+                        "set {open my skill name| utterance} as my invocation sentance",
+                        "set {one | utterance} as my invocation sentance",
+                        "set {create vm | utterance} as my invocation word"
+                    ]
+                },
+                {
+                    "name": "savemodel",
+                    "slots": [],
+                    "samples": [
+                        "build my model",
+                        "save my model",
+                        "save model",
+                        "build mode"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, abort, request, make_response, url_for
-# import json
+import json
 from selenium import webdriver
 import requests
 
@@ -47,8 +47,11 @@ def not_found(error):
 
 @app.route('/', methods=['POST'])
 def post_tasks():
-    # print(request.json)
-    responce = functions[request.json['request']["type"]](request.json)
+    print(request.json)
+    if "accessToken" in request.json['session']['user']:
+        responce = functions[request.json['request']["type"]](request.json)
+    else:
+        responce = res_builder('Account linking needed.','Account linking needed.',{}, True)
     return jsonify(responce)
 
 @app.route('/', methods=['GET'])
@@ -56,7 +59,7 @@ def get_tasks():
     return "<h1 style = 'color:#ce4327;text-align:center'>EXORT</h1>"
 
 
-launch_req = 'Train your self is a skill, that lets you to train skills for me without touching your keyboard, to start say new skill or edit skill followed by skill name'
+launch_req = 'Train your self is a skill, that lets you to train skills for me without touching your keyboard, to start say new skill followed by skill name'
 
 news = "inside skill "
 
@@ -68,7 +71,7 @@ editis = "inside intent "
 
 utteranceadd = "added utterance "
 
-invocations = " has been set as your invocation word or sentance."
+invocations = " has been set as your invocation word or sentance. "
 
 def launchrequest(json):
     return res_builder(launch_req, launch_req, {"skill":""}, False)
@@ -82,7 +85,7 @@ def intentrequest(json):
 def newskill(json):
     slots = json["request"]["intent"]["slots"]
     skillname = slots["utterance"]["value"]
-    return res_builder(news+skillname+'say your invocation word or utterance, for example try saying "set trigger word as my invocation word".', news+skillname, {"skill":skillname,"intent":[]}, False)
+    return res_builder(news+skillname+' say your invocation word or utterance, for example try saying "set trigger word as my invocation word".', news+skillname, {"skill":skillname,"intent":[],"responce":{}}, False)
 
 def addintent(json):
     slots = json["request"]["intent"]["slots"]
@@ -92,7 +95,8 @@ def addintent(json):
         attribute["intent"].append(name)
         attribute["currentintent"] = name
         attribute[name] = []
-        return res_builder(newi + name + 'say add utterance, utterance to add a utterance to the intent', newi + name + 'say add utterance, utterance to add a utterance to the intent', attribute, False)
+        attribute["responce"][name]=[]
+        return res_builder(newi + name + '. say add utterance, utterance to add a utterance to the intent', newi + name + '. say add utterance, utterance to add a utterance to the intent', attribute, False)
     else:
         return res_builder("intent " + name + " already exists.", "intent " + name + " already exists.", attribute, False)
 
@@ -108,7 +112,7 @@ def editintent(json):
 
 def intentutterance(json):
     slots = json["request"]["intent"]["slots"]
-    utterance = slots["speech"]["value"]
+    utterance = slots["utterance"]["value"]
     attribute = json["session"]["attributes"]
     intent = attribute["currentintent"]
     attribute[intent].append(utterance)
@@ -119,7 +123,7 @@ def invocation(json):
     name = slots["utterance"]["value"]
     attribute = json["session"]["attributes"]
     attribute["invocation"] = name
-    return res_builder(name + invocations + "say add or create intent, intent name to create intent", name + invocations, attribute, False)
+    return res_builder(name + invocations + " say add or create intent, intent name to create intent", name + invocations, attribute, False)
 
 def savemodel(json):
     attribute = json["session"]["attributes"]
@@ -130,43 +134,27 @@ def savemodel(json):
         return res_builder("build started", "build started", attribute, True)
 
 def automation(attribute):
-    data = {
-			"invocation": "set create vm",
-			"skill": "create vm",
-			"currentintent": "create",
-			"create": [
-				"create my vm",
-				"create vm"
-			],
-			"delete": [
-				"delete intent"
-			],
-			"intent": [
-				"create",
-				"delete"
-			]
-		}
-    requests.post('http://localhost:5005/build',data=data)
-    # driver = webdriver.Firefox()
-    # driver.maximize_window()
-    # driver.get(
-    #     'https://www.amazon.com/ap/signin?clientContext=132-0852981-8720006&openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Falexa%2Fconsole%2Fask&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=mas_dev_portal&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_developer_portal&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&siteState=clientContext%3D135-7286414-6312915%2CsourceUrl%3Dhttps%253A%252F%252Fdeveloper.amazon.com%252Falexa%252Fconsole%252Fask%2Csignature%3Dnull&language=en_US')
-    # driver.implicitly_wait(2)
-    # driver.find_element_by_id('ap_email').send_keys('r.eniyanilavan@gmail.com')
-    # driver.find_element_by_id('ap_password').send_keys('eniyan007')
-    # driver.find_element_by_id('signInSubmit').click()
-    # driver.implicitly_wait(10)
-    # driver.find_element_by_xpath("//button[@class='astro__button astro__button--primary']").click()
-    # driver.find_element_by_xpath(
-    #     "//input[@class='astro-text-super astro-text-light skill-name-input-field']").send_keys('aaaaaa')
-    # driver.find_element_by_xpath("//button[@class='astro__button astro__button--primary']").click()
-    # driver.find_element_by_xpath("//button[@class='astro__button astro__button--primary' and @title='Select']").click()
-    # driver.find_element_by_xpath("//button[@class='astro__button as-end astro__button--primary']").click()
-    # driver.implicitly_wait(10)
-    # driver.find_element_by_xpath("//a[@class='nav-item-header-link' and @title='Invocation']").click()
-    # driver.find_element_by_xpath("//div[@class='form-field__wrapper']/input[1]").send_keys("asdsfad")
-    # # driver.find_element_by_class_name('nav-item-header-link').click()
+    res = requests.get('https://exort-alexa.auth0.com/userinfo', headers={"authorization": "Bearer " +request.json['session']['user']['accessToken']})
+    temp = json.loads(res.content)
+    attribute['email']= temp['name']
+    requests.post('http://localhost:5005/build',json=attribute)
     return res_builder("build successful test your skill", "build successful test your skill", attribute, True)
+
+def responce(json):
+    slots = json["request"]["intent"]["slots"]
+    utterance = slots["utterance"]["value"]
+    attribute = json["session"]["attributes"]
+    intent = attribute["currentintent"]
+    attribute["responce"][intent].append(utterance)
+
+def cancel():
+    return res_builder("current session is ended", "current session is ended", {}, True)
+
+def help():
+    return res_builder("", "", {}, True)
+
+def stop():
+    return res_builder("current session is ended", "current session is ended", {}, True)
 
 functions = {
     "LaunchRequest": launchrequest,
@@ -177,6 +165,10 @@ functions = {
     "editintent": editintent,
     "intentutterance": intentutterance,
     "savemodel": savemodel,
+    "responce": responce,
+    "AMAZON.CancelIntent":cancel,
+    "AMAZON.HelpIntent":help,
+    "AMAZON.StopIntent":stop,
 }
 
 
